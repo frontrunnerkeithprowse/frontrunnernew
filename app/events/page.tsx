@@ -20,7 +20,7 @@ const events = [
     href: "/events/monaco-grand-prix",
     category: "Formula 1",
     location: "Monaco",
-    image: "/monaco4.jpg",
+    image: "/monaco-grand-prix.jpg",
     text: "One of the most iconic weekends in motorsport, built around rare access and atmosphere.",
   },
   {
