@@ -15,11 +15,11 @@ export default function MonacoGrandPrixPage() {
   return (
     <main className="min-h-screen bg-[#F9F4EE] text-[#0C2340]">
       <section className="relative h-[75vh] overflow-hidden">
-        <img
-          src="/monaco4.jpg"
-          alt="Monaco Grand Prix"
-          className="h-full w-full object-cover"
-        />
+       <img
+  src="/images/monaco-grand-prix/heromonaco.jpg"
+  alt="Monaco Grand Prix"
+  className="h-full w-full object-cover"
+/>
 
         <div className="absolute inset-0 bg-[#0C2340]/50" />
 
@@ -111,16 +111,16 @@ export default function MonacoGrandPrixPage() {
       <section className="mx-auto max-w-7xl px-6 pb-24">
         <div className="grid gap-8 md:grid-cols-2">
           <img
-            src="/monaco4.jpg"
-            alt="Monaco Grand Prix harbour"
-            className="h-[420px] w-full rounded-[32px] object-cover"
-          />
+  src="/images/monaco-grand-prix/actionmonaco.jpg"
+  alt="Monaco Grand Prix action"
+  className="h-[420px] w-full rounded-[32px] object-cover"
+/>
 
-          <img
-            src="/monaco4.jpg"
-            alt="Monaco Grand Prix circuit"
-            className="h-[420px] w-full rounded-[32px] object-cover"
-          />
+<img
+  src="/images/monaco-grand-prix/hospitalitymonaco.jpg"
+  alt="Monaco Grand Prix harbour"
+  className="h-[420px] w-full rounded-[32px] object-cover"
+/>
         </div>
       </section>
 
