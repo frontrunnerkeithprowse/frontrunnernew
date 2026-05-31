@@ -3,13 +3,13 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles, MapPin, Clock } from "lucide-react";
 
-const events = [
+ const events = [
   {
     title: "Australian Open",
     href: "/events/australian-open",
     category: "Tennis",
     location: "Melbourne",
-    image: "/australian-open.png",
+    image: "/images/australian-open/hero.jpg",
     text: "Grand Slam tennis, premium hotels and Centre Court atmosphere.",
   },
   {
@@ -17,7 +17,7 @@ const events = [
     href: "/events/australian-grand-prix",
     category: "Formula 1",
     location: "Melbourne",
-    image: "/ausgp.webp",
+    image: "/images/australian-grand-prix/heroagp.jpg",
     text: "Race weekend travel with hospitality and the thrill of lights out.",
   },
   {
@@ -25,18 +25,18 @@ const events = [
     href: "/events/monaco-grand-prix",
     category: "Formula 1",
     location: "Monaco",
-    image: "/monaco4.jpg",
-    text: "One of the most iconic weekends in motorsport.",
+    image: "/images/monaco-grand-prix/heromonaco.jpg",
+    text: "The most iconic weekend in motorsport.",
   },
   {
     title: "Singapore Grand Prix",
     href: "/events/singapore-grand-prix",
     category: "Formula 1",
     location: "Singapore",
-    image:
-      "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1200&q=80",
     text: "Night racing, premium hospitality and electric atmosphere.",
   },
+
 ];
 
 const moments = [
